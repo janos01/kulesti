@@ -9,7 +9,7 @@ print('----------------------------------')
 pontszamok = []
 szam = -2
 while szam != -1:
-    szam = int(input('Szám: '))
+    szam = int(input('Szám (-1 végjel): '))
     if szam != -1:
         pontszamok.append(szam)
     
