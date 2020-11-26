@@ -1,0 +1,17 @@
+div.koz {
+/*
+    display: none;
+*/
+    visibility:hidden;
+}
+
+div {
+    border-style: solid;
+/*
+    display: inline-block;
+*/
+/*
+    width: 300px;
+*/
+    
+}
