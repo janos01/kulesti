@@ -17,7 +17,7 @@ class Eladas:
         for line in lines[1:]:
             line = line.rstrip()
             (az, rendszam, szin, marka, ar) = line.split(':')
-            jarmu = Jarmu(az, rendszam, szin, marka, ar)   
+            jarmu = Jarmu(az, rendszam, szin, marka, ar)              
             self.jarmuvek.append(jarmu)    
         fp.close()
 
